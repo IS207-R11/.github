@@ -13,26 +13,6 @@
 
 Trong trường hợp nhóm trưởng vì lý do cá nhân mà tạm thời không điều phối được công việc nhóm, nhóm trưởng phải chỉ định 1 thành viên làm nhóm trưởng tạm thời. Sự thay đổi này phải được ghi nhận lại tại danh sách thành viên này.
 
-# Bảng đóng góp
-
-Bảng đóng góp được lập căn cứ vào số liệu của Github Project và thái độ thực tế khi làm việc nhóm.
-
-**Bảng đóp góp của mini-project**:
-| MSSV | Họ và tên | Phần trăm đóng góp |
-| -------- | ------------------- | ------------------ |
-| 24520145 | Cao Thái Bảo | |
-| 24520137 | Vũ Lê Minh Anh | |
-| 24521459 | Võ Minh Quân | |
-| 24521808 | Bùi Phan Giáng Trân | |
-
-**Bảng đóp góp của main-project**:
-| MSSV | Họ và tên | Phần trăm đóng góp |
-| -------- | ------------------- | ------------------ |
-| 24520145 | Cao Thái Bảo | |
-| 24520137 | Vũ Lê Minh Anh | |
-| 24521459 | Võ Minh Quân | |
-| 24521808 | Bùi Phan Giáng Trân | |
-
 # Quy trình làm việc nhóm
 
 ### Yêu cầu
@@ -50,6 +30,7 @@ Nhóm sử dụng _Github Organization_ và _Github Project_ để quản lý d�
 
 - [Project Hub](https://github.com/IS207-R11/.github): Chứa các tài liệu liên quan đến nhóm, quy trình làm việc và các tài liệu không phải mã nguồn.
 - [Google Drive - Non-code repository](https://drive.google.com/drive/folders/1ajMGAQ2yEMmVwscEd1HeISssLvDxkZzC?usp=sharing): Lưu trữ các tài liệu báo cáo đồ án, log,...
+- [Github Projects](https://github.com/orgs/IS207-R11/projects/1): Github Projects.
 - [Main Project](https://github.com/IS207-R11/main-project): Mã nguồn main project.
 - [Mini Project](https://github.com/IS207-R11/mini-project): Mã nguồn mini project.
 
@@ -104,6 +85,7 @@ Mỗi sprint có thời hạn là **1 tuần** (trong các trường hợp đặ
 | **In Progress** | Task đang làm. |
 | **In Release** | Task đã code xong (chưa demo nghiệm thu) và đã merge vào nhánh release. |
 | **In Production** | Task đã hoàn thành và đã merge vào nhánh main. |
+| **Canceled** | Task bị hủy. |
 
 #### Đối với các task khác
 
