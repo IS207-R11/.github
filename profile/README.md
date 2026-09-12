@@ -43,8 +43,8 @@ Nhóm sử dụng _Github Organization_ và _Github Project_ để quản lý d�
 
 #### Đối với các task về lập trình
 
-1. Nhóm trưởng giao task (issue) cho các thành viên tại _Github Projects_ với trạng thái _Backlog_ (nếu chưa tìm được thành viên làm task hoặc task gây tranh cãi thì trạng thái là _Pending_, chờ xử lý sau).
-2. Tại máy tính của mình, thành viên tạo một nhánh mới từ nhánh `main` với tên `task/<task number>`. Mọi thay đổi của task đều chỉ được thực hiện tại nhánh đó và chuyển trạng thái task là _In Progress_.
+1. Nhóm trưởng giao task (issue) cho các thành viên tại _Github Projects_ với trạng thái _In Progress_.
+2. Tại máy tính của mình, thành viên tạo một nhánh mới từ nhánh `main` với tên `task/<task number>`. Mọi thay đổi của task đều chỉ được thực hiện tại nhánh đó.
 3. Sau khi hoàn thành task, thành viên tạo một _Pull Request_ (PR) để review và merge vào nhánh `release/<sprint number>`.
 4. Nhóm trưởng sẽ review PR:
    1. Nếu PR bị conflicts hoặc fail CI, thành viên cần chủ động tạo thêm commit để resolve.
@@ -80,9 +80,7 @@ Mỗi sprint có thời hạn là **1 tuần** (trong các trường hợp đặ
 **Bảng tóm tắt các trạng thái của task**:
 | Trạng thái | Ý nghĩa |
 |-------------------|-------------------------------------------------------------------------|
-| **Backlog** | Task chưa làm, đã có người thực thi / review. |
-| **Pending** | Task chưa làm, chưa có người thực thi / review. |
-| **In Progress** | Task đang làm. |
+| **In Progress** | Task đã bàn giao. |
 | **In Release** | Task đã code xong (chưa demo nghiệm thu) và đã merge vào nhánh release. |
 | **In Production** | Task đã hoàn thành và đã merge vào nhánh main. |
 | **Canceled** | Task bị hủy. |
