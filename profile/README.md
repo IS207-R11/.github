@@ -69,7 +69,7 @@ Mỗi sprint có thời hạn là **1 tuần** (trong các trường hợp đặ
 **Cuối mỗi tuần:**
 
 1. Các thành viên pull `release/<sprint number>` về máy, chạy local để kiểm tra tính năng mình làm có đúng chưa, có thiếu/mất code không.
-1. Nhóm trưởng tạo meeting cho các thành viên demo kết quả đạt được _(có ghi hình lại để tiện báo cáo cho thầy)_.
+1. Nhóm trưởng tạo meeting vào **8h tối thứ 7** cho các thành viên demo kết quả đạt được _(có ghi hình lại để tiện báo cáo cho thầy)_.
 1. Nếu task đã đạt:
    1. Nhóm trưởng thay đổi trạng thái task thành _In Production_.
    2. Nhóm trưởng deploy.
