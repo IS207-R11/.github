@@ -33,6 +33,7 @@ Nhóm sử dụng _Github Organization_ và _Github Project_ để quản lý d�
 - [Github Projects](https://github.com/orgs/IS207-R11/projects/1): Github Projects.
 - [Main Project](https://github.com/IS207-R11/main-project): Mã nguồn main project.
 - [Mini Project](https://github.com/IS207-R11/mini-project): Mã nguồn mini project.
+- [Github Releases](https://github.com/IS207-R11/.github/releases): Lịch sử buổi họp.
 
 #### Công cụ lập trình được khuyến khích sử dụng
 
@@ -73,7 +74,7 @@ Mỗi sprint có thời hạn là **1 tuần** (trong các trường hợp đặ
 1. Nếu task đã đạt:
    1. Nhóm trưởng thay đổi trạng thái task thành _In Production_.
    2. Nhóm trưởng deploy.
-   3. Nhóm trưởng tạo release note ghi nhận lại kết quả trong sprint vừa qua.
+   3. Nhóm trưởng tạo [Github Releases](https://github.com/IS207-R11/.github/releases) ghi nhận lại kết quả trong sprint vừa qua.
    4. Nhóm trưởng merge nhánh `release/<sprint number>` vào `main` và deploy `main`.
 1. Nhóm trưởng tạo các task mới cho các task chưa đạt và cho milestones chung.
 
