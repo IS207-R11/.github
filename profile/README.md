@@ -45,7 +45,7 @@ Nhóm sử dụng _Github Organization_ và _Github Project_ để quản lý d�
 
 1. Nhóm trưởng giao task (issue) cho các thành viên tại _Github Projects_ với trạng thái _In Progress_.
 2. Tại máy tính của mình, thành viên tạo một nhánh mới từ nhánh `main` với tên `task/<task number>`. Mọi thay đổi của task đều chỉ được thực hiện tại nhánh đó.
-3. Sau khi hoàn thành task, thành viên tạo một _Pull Request_ (PR) để review và merge vào nhánh `release/<sprint number>`.
+3. Sau khi hoàn thành task, thành viên tạo một _Pull Request_ (PR) để merge vào nhánh `release/<sprint number>`, assign nhóm trưởng vào review.
 4. Nhóm trưởng sẽ review PR:
    1. Nếu PR bị conflicts hoặc fail CI, thành viên cần chủ động tạo thêm commit để resolve.
    2. Nếu PR pass CI và is able to merge, nhóm trưởng sẽ merge PR, thành viên chuyển trạng thái task là _In Release_.
