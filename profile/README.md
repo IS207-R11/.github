@@ -86,6 +86,22 @@ Mỗi sprint có thời hạn là **1 tuần** (trong các trường hợp đặ
 | **In Production** | Task đã hoàn thành và đã merge vào nhánh main. |
 | **Canceled** | Task bị hủy. |
 
+**Một số lệnh hữu ích khi lập trình**:
+```sh
+# --- Khi mới bắt đầu nhận task : Tạo nhánh mới có tên task/<task number> ---
+git checkout -b task/<task number>
+
+# --- Khi bắt đầu code : Cập nhật nhánh ---
+git pull origin main
+
+# --- Trong khi code : Lưu code và đưa lên Github
+git add .
+git commit -m "<Mô tả ngắn gọn code của bạn bằng tiếng Anh hoặc tiếng Việt>"
+git push -u origin main
+
+# --- Sau khi hoàn thành task : Mở Github lên và tạo Pull Request để merge vào nhánh release/<sprint number> (nếu không có release/<sprint number> thì nhắc nhóm trưởng tạo)
+```
+
 #### Đối với các task khác
 
 Thành viên thực hiện trong các file tại repository này, không có quy định gì thêm.
